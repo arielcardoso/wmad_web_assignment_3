@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a5c093;
+    font-size: 0.8rem;
+}
+a {
+	text-decoration: none;
+	color: #1F216B;
+}
+img {
+	max-width: 100%;
+}
+.wrap{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+header{
+	padding: 0 15px;
+}
+header .logo {
+	display: block;
+	margin-bottom: 15px;
+}
+nav ul {
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin:0; 
+	padding: 0;
+	list-style: none;
+}
+nav ul li {
+	display: inline;
+	width: 20%;
+	float: left;
+}
+nav ul li a {
+	display: block;
+	width: 100%;
+	background-color: #368cbf;
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+	font-weight: bold;
+}
+nav ul li a:hover {
+	background-color: #3C9AD2;
+}
+main {
+	display: block;
+	margin: 0 auto;
+	padding: 15px;
+}
+section.banner {
+	margin-bottom: 15px;
+}
+.row {
+	position: relative;
+	display: table;
+}
+.column {
+	width: 25%;
+	float: left;
+}
+.column-two {
+	width: 46%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+article {
+	background-color: #eaeaea;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+article h4 {
+	color: #1F216B;
+}
+article p {
+	text-align: justify;
+}
+
+figure {
+	width: 100%;
+	margin: 0;
+	margin-bottom: 15px;
+}
+figure img {
+	margin: 0;
+	width: 100%;
+}
+figure figcaption {
+	color: #1F216B;
+	font-weight: bold;
+}
+footer {
+	border-top: 1px solid #eee;
+	display: block;
+	font-size: 0.8rem;
+	padding: 15px;
+}
+footer p {
+	margin: 0;
+	line-height: 150%;
+}
